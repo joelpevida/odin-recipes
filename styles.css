@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(254, 210, 181);
+  background-image: url("./images/kitchen.jpg");
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+ul.ingredientsList {
+  background-color: rgb(246, 133, 41);
+}
+
+ol.stepsList {
+  color: white;
+  background-color: black;
+}
+
+h1 {
+  font-size: 100px;
+  font-family: sans-serif;
+}
+
+#backLink {
+  color: rgb(255, 85, 0);
+  font-size: 25px;
+}
+
+img {
+  height: auto;
+  width: 300px;
+  border: 5px solid #000000;
+}
+
+.recipeLink {
+  font-style: italic;
+  font-size: 50px;
+  color: black;
+  text-decoration: none;
+}
+
+.recipeLink.healthyRecipe {
+  color: green;
+}
+
+.recipeLink.unhealthyRecipe {
+  color: red;
+}
